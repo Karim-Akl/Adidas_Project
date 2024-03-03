@@ -115,13 +115,16 @@ nav .logo:hover{
     .content,nav{
         flex-direction: column;
         justify-content: center;
+        margin: auto;
+        margin-top: 20px;
     }
     .content .img, .content .text{
         width: 80%;
+    
     } 
     .content .img img{
 
-            width: 250px;
+            width: 200px;
             margin: auto;
     
     }
@@ -129,4 +132,28 @@ nav .logo:hover{
         clip-path: circle(50% at bottom);
     }
     
+}
+@media (max-width: 500px){
+.content .text p{
+    letter-spacing: normal;
+    font-size: 10px;
+    font-weight: 100;
+
+}
+.content .text .h{
+    font-size: large;
+
+}
+.text{
+
+    margin-top: 10px;
+    
+}
+.img{ 
+    margin-bottom: 40px;
+    nav{
+    margin: auto;
+    margin-top: 50px;
+    }
+}
 }
